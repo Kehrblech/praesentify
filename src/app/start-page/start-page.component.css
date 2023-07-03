@@ -1,0 +1,30 @@
+
+h1 {
+  font-size: 44px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+#hero {
+  flex-direction: row;
+
+}
+#hero-text {
+  flex-direction: column;
+}
+#search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.input-button-container {
+  margin-right: 8px;
+}
+
+button {
+  margin: 0.1rem;
+  margin-right: 1rem;
+}
