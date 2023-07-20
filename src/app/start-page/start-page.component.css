@@ -1,6 +1,6 @@
 body
 h1 {
-  font-size: 54px;
+  font-size: 5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2 {
@@ -37,6 +37,16 @@ button {
 }
 /* Mobile styles */
 @media (max-width: 768px) {
+
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  #hero{
+    padding-top: 4rem;
+  }
+
+
   #hero,
   #hero-text,
   #search {
